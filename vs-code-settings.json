@@ -1,0 +1,138 @@
+# Vs-code-Settings.json
+
+{"material-icon-theme.hidesExplorerArrows": true, 
+"workbench.tree.renderIndentGuides": "none",
+"editor.minimap.enabled": true,
+"editor.minimap.maxColumn": 90 ,
+"editor.minimap.scale": 1,
+
+// maybe not mendatory
+// "workbench.editor.showTabs": "none",
+"workbench.colorCustomizations": {
+  "sideBar.background": "#190b3a",
+    "editorSuggestWidget.selectedBackground": "#352052",
+    "list.activeSelectionBackground": "#1e0f41",
+    "list.inactiveSelectionBackground": "#280d68",
+    "list.focusBackground": "#280d68",
+    "list.hoverBackground": "#34224d",
+    "tab.activeBackground": "#280d68",
+    "activityBar.activeBackground": "#1a0b33"
+},
+
+"apc.font.family": "Dank Mono",
+"apc.menubar.compact": true,
+"apc.activityBar": {
+  "position": "bottom",
+  "size": 50,
+  // "itemSize": 30,
+  "itemMargin": 4
+},
+"apc.header": {
+  "height":40
+},
+"apc.electron": {
+  "titleBarStyle": "hidden",
+    "opacity": 1
+},
+"apc.statusBar": {
+  "position": "editor-bottom"
+},
+"apc.stylesheet": {
+  // ".monaco-editor .cursor-layer .cursor":"background-image:linear-gradient(135deg, #67d0ff 10%,#c45dff 100%);",
+  ".quick-input-list-row div":"display: flex !important; align-items: center !important;"
+},
+"apc.listRow": {
+  "lists": [
+    "explorer-folders-view",
+    "quick-input-list",
+    "results"
+  ],
+  "height": 32,
+  "fontSize": 16 
+},
+"explorer.compactFolders": false,
+"editor.fontFamily": "Dank Mono",
+"editor.fontLigatures": true, 
+"editor.tabSize": 2,
+"editor.detectIndentation": false,
+"editor.lineHeight": 2,
+"editor.cursorSmoothCaretAnimation": "on",
+"editor.scrollbar.horizontalScrollbarSize": 7, 
+"editor.overviewRulerBorder": false,
+"editor.scrollbar.verticalScrollbarSize": 7,
+"editor.renderWhitespace": "none",
+"workbench.startupEditor": "none",
+"workbench.tips.enabled": false,
+"workbench.layoutControl.enabled": false,
+"workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.mouseWheelZoom": true,
+    "python.terminal.executeInFileDir": true,
+    "workbench.editorAssociations": {
+        "*.mp3": "default",
+        "*.sqlite3": "default"
+    },
+    "WavPreview.autoPlay": true,
+    "WavPreview.autoAnalyze": true,
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "code-runner.runInTerminal": true,
+    "editor.stickyScroll.enabled": false,
+    "accessibility.signals.lineHasWarning": {
+        "sound": "auto"
+    },
+    "files.autoSaveDelay": 100,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.jsx": "javascriptreact"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.env.windows": {},
+    "console-ninja.featureSet": "Community",
+    "explorer.confirmDelete": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "vscode_custom_css.imports": [],
+    "animations.CursorAnimationOptions": {
+      "Color": "#4c00b0",
+      "TrailLength": 7
+    },
+    "animations.Durations": {
+        "Command-Palette": 500,
+        "Tabs": 400,
+        "Scrolling": 400,
+        "Focus-Dimming": 400
+    },
+    "animations.Command-Palette": "Slide",
+    "workbench.colorTheme": "2077",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "workbench.statusBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "animations.CursorAnimation": true,
+    "animations.Enabled": true,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+      "file:///c:/Users/fahmu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ],
+    "window.density.editorTabHeight": "compact",
+    "update.mode": "manual"
+}
